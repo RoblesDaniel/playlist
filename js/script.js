@@ -46,7 +46,7 @@ function displaySongInfo(){
     $("#artists").append("<p>" + artists[i] + "</p>");
     $("#images").append("<img src = ' " + imageLinks[i] + " ' >");
     $("#lengths").append("<p>" + lengths[i] + "</p>");
-    $("#links").append("<a href=> " + songLinks[i] + "</a>");   
+    $("#links").append("<a href='" + songLinks[i] + " '> </a>");   
     });
 
 }
